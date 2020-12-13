@@ -11,4 +11,4 @@
     -d runs on background
     -p publish port
     
-  doing '-p 8080:80' it is stablished a bridge between host and container
+  Using the above option *-p 8080:80* it is stablished a bridge between host and container. that way we can access nginx from localhost, using *localhost:8080*.

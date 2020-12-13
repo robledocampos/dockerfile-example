@@ -1,10 +1,18 @@
+# Docker nginx web server
+  
+  Here we: 
+  
+  - Build docker image, based on a dockerfile with debian and nginx.
+  - Run a container with this image
+  - Make a bridge to expose do nginx webserver to localhos 
+  
 
-## Build Docker image with Nginx
+## Build docker image with nginx
 
     docker image build ~/dockerfile-example -t <image-name>
 
 
-## Run Docker container
+## Run docker container
 
     docker run -d -p 8080:80 <image-name>
 

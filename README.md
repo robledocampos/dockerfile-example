@@ -50,4 +50,4 @@
 
 ### Delete:
 
-    docker container rm <container-name>
+    docker image rm <container-name>

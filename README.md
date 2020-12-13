@@ -5,8 +5,8 @@
   - Build docker image, based on a dockerfile with debian and nginx.
   - Run a container with this image
   - Make a bridge to expose do nginx webserver to localhost
-  - See commands to List, stop and delete container
-  - See commands to List, and delete image
+  - See commands to list, stop and delete container
+  - See commands to list, and delete image
   
 ## Prerequisites
 

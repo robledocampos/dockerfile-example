@@ -6,11 +6,15 @@
   - Run a container with this image
   - Make a bridge to expose do nginx webserver to localhos 
   
+## Prerequisites
+
+  - Docker running.
 
 ## Build docker image with nginx
 
-    docker image build ~/dockerfile-example -t <image-name>
+  On a terminal, inside *dockerfile-example* folder, execute:
 
+    docker image build . -t <image-name>
 
 ## Run docker container
 

@@ -2,7 +2,7 @@
   
   Here we: 
   
-  - Build docker image, based on a dockerfile with debian and nginx.
+  - Build docker image, based on a dockerfile with debian and nginx
   - Run a container with this image
   - Make a bridge to expose do nginx webserver to localhost
   - See commands to list, stop and delete container
@@ -10,7 +10,7 @@
   
 ## Prerequisites
 
-  - Docker running.
+  - Docker running in your environment
 
 ## Build docker image with nginx
 
@@ -28,7 +28,7 @@
     -p publish port
     --name tags the container with a label
 
-  Using the above option *-p 8080:80* it is stablished a bridge between host and container. that way we can access nginx from localhost, using *localhost:8080*.
+  Using the above option *-p 8080:80* it is stablished a bridge between host and container. that way we can access nginx from localhost, using *localhost:8080*
 
 ## Listing, stopping and deleting containers
 
@@ -52,4 +52,4 @@
 
 ### Delete:
 
-    docker image rm <container-name>
+    docker image rm <image-name>

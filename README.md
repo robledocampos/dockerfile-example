@@ -10,7 +10,7 @@
   
 ## Prerequisites
 
-  - Docker running in your environment
+  - Docker running in your environment (if you don't have it: https://www.docker.com/get-started)
 
 ## Build docker image with nginx
 
